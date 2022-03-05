@@ -386,7 +386,8 @@ header nav .toggle-menu{
     max-width: 100%;
     cursor: pointer;
     transition: .2s;
-    animation: filter .4s;
+    animation: filter .4s linear;
+;
 }
 @keyframes filter{
     0%{
