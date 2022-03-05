@@ -353,6 +353,7 @@ header nav .toggle-menu{
 .portfolio .shufle li{
     padding: 8px;
     cursor: pointer;
+    transition: .3s;
 }
 .portfolio .shufle li.active{
     background-color: var(--main-color);
