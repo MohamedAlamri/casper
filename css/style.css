@@ -385,7 +385,7 @@ header nav .toggle-menu{
 .portfolio .imgs-container .box img{
     max-width: 100%;
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
     animation: filter .4s;
 }
 @keyframes filter{
@@ -394,7 +394,7 @@ header nav .toggle-menu{
         transform: scale(0);
     }
     50%{
-        opacity: 1;
+        opacity:.5;
         transform: scale(.5);
     }
     100%{
